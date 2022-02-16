@@ -1,5 +1,5 @@
-#include "Simple_window.h"
-#include "Graph.h"
+#include "./GUI/Simple_window.h"
+#include "./GUI/Graph.h"
 
 double one(double) { return 1; }
 
@@ -46,7 +46,7 @@ int main()
 	t.set_font(Font::times_bold);
 	t.set_font_size(20);
 
-	Image ii {Point{100,100}, "cica.jpg"};
+	Image ii {Point{100,100}, "./GUI/cica.jpg"};
 
 	Circle c {Point{700,700}, 100};
 
